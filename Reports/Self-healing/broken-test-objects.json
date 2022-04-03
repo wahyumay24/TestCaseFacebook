@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Facebook - Masuk atau Daftar/button_Login",
+      "brokenLocator": "//button[@id\u003d\u0027u_0_d_JZ\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Facebook membantu Anda terhubung dan berbagi dengan orang-orang dalam kehidupan Anda.\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Facebook - Masuk atau Daftar/button_Login_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Facebook - Masuk atau Daftar/a_Lupa Kata Sandi",
+      "brokenLocator": "//form[@id\u003d\u0027u_0_a_sj\u0027]/div[3]/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027Lupa Kata Sandi?\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Facebook - Masuk atau Daftar/a_Lupa Kata Sandi_link.png"
+    }
+  ]
+}
